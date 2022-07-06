@@ -8,25 +8,26 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
-// EXERCISE: Use your own package
+// EXERCISE: Print names
 //
-//  Create a few Go files and call their functions from
-//  the main function.
-//
-//  1- Create main.go, greet.go and bye.go files
-//  2- In main.go: Call greet and bye functions.
-//  3- Run `main.go`
-//
-// HINT
-//  greet function should be in greet.go
-//  bye function should be in bye.go
+//  Print your name and your best friend's name using
+//  Println twice
 //
 // EXPECTED OUTPUT
-//  hi there
-//  goodbye
+//  YourName
+//  YourBestFriendName
+//
+// BONUS
+//  Use `go run` first.
+//  And after that use `go build` and run your program.
 // ---------------------------------------------------------
 
 func main() {
-	// call functions of the other files here
+	// ?
+	fmt.Println("Freddy Camilo Aldana")
+	fmt.Println("Natalia Torres")
+	// ?
 }

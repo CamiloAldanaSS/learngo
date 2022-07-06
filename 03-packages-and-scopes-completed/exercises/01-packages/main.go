@@ -9,21 +9,26 @@
 package main
 
 // ---------------------------------------------------------
-// EXERCISE: Print names
+// EXERCISE: Use your own package
 //
-//  Print your name and your best friend's name using
-//  Println twice
+//  Create a few Go files and call their functions from
+//  the main function.
+//
+//  1- Create main.go, greet.go and bye.go files
+//  2- In main.go: Call greet and bye functions.
+//  3- Run `main.go`
+//
+// HINT
+//  greet function should be in greet.go
+//  bye function should be in bye.go
 //
 // EXPECTED OUTPUT
-//  YourName
-//  YourBestFriendName
-//
-// BONUS
-//  Use `go run` first.
-//  And after that use `go build` and run your program.
+//  hi there
+//  goodbye
 // ---------------------------------------------------------
 
 func main() {
-	// ?
-	// ?
+	// call functions of the other files here
+	greet()
+	bye()
 }
